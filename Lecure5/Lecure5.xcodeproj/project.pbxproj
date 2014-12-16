@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460FCA011A3FC5D800A1A9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA001A3FC5D800A1A9EB /* Foundation.framework */; };
+		460FCA031A3FC5D800A1A9EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA021A3FC5D800A1A9EB /* CoreGraphics.framework */; };
+		460FCA051A3FC5D800A1A9EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA041A3FC5D800A1A9EB /* UIKit.framework */; };
+		460FCA0B1A3FC5D800A1A9EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 460FCA091A3FC5D800A1A9EB /* InfoPlist.strings */; };
+		460FCA0D1A3FC5D800A1A9EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FCA0C1A3FC5D800A1A9EB /* main.m */; };
+		460FCA111A3FC5D800A1A9EB /* LFIVEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FCA101A3FC5D800A1A9EB /* LFIVEAppDelegate.m */; };
+		460FCA141A3FC5D800A1A9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460FCA121A3FC5D800A1A9EB /* Main.storyboard */; };
+		460FCA171A3FC5D800A1A9EB /* LFIVEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FCA161A3FC5D800A1A9EB /* LFIVEViewController.m */; };
+		460FCA191A3FC5D800A1A9EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FCA181A3FC5D800A1A9EB /* Images.xcassets */; };
+		460FCA201A3FC5D800A1A9EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA1F1A3FC5D800A1A9EB /* XCTest.framework */; };
+		460FCA211A3FC5D800A1A9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA001A3FC5D800A1A9EB /* Foundation.framework */; };
+		460FCA221A3FC5D800A1A9EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460FCA041A3FC5D800A1A9EB /* UIKit.framework */; };
+		460FCA2A1A3FC5D800A1A9EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 460FCA281A3FC5D800A1A9EB /* InfoPlist.strings */; };
+		460FCA2C1A3FC5D800A1A9EB /* Lecure5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FCA2B1A3FC5D800A1A9EB /* Lecure5Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460FCA231A3FC5D800A1A9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FC9F51A3FC5D800A1A9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FC9FC1A3FC5D800A1A9EB;
+			remoteInfo = Lecure5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460FC9FD1A3FC5D800A1A9EB /* Lecure5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecure5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FCA001A3FC5D800A1A9EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		460FCA021A3FC5D800A1A9EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		460FCA041A3FC5D800A1A9EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		460FCA081A3FC5D800A1A9EB /* Lecure5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lecure5-Info.plist"; sourceTree = "<group>"; };
+		460FCA0A1A3FC5D800A1A9EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		460FCA0C1A3FC5D800A1A9EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		460FCA0E1A3FC5D800A1A9EB /* Lecure5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lecure5-Prefix.pch"; sourceTree = "<group>"; };
+		460FCA0F1A3FC5D800A1A9EB /* LFIVEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFIVEAppDelegate.h; sourceTree = "<group>"; };
+		460FCA101A3FC5D800A1A9EB /* LFIVEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFIVEAppDelegate.m; sourceTree = "<group>"; };
+		460FCA131A3FC5D800A1A9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		460FCA151A3FC5D800A1A9EB /* LFIVEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFIVEViewController.h; sourceTree = "<group>"; };
+		460FCA161A3FC5D800A1A9EB /* LFIVEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFIVEViewController.m; sourceTree = "<group>"; };
+		460FCA181A3FC5D800A1A9EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		460FCA1E1A3FC5D800A1A9EB /* Lecure5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lecure5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FCA1F1A3FC5D800A1A9EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		460FCA271A3FC5D800A1A9EB /* Lecure5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lecure5Tests-Info.plist"; sourceTree = "<group>"; };
+		460FCA291A3FC5D800A1A9EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		460FCA2B1A3FC5D800A1A9EB /* Lecure5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lecure5Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460FC9FA1A3FC5D800A1A9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA031A3FC5D800A1A9EB /* CoreGraphics.framework in Frameworks */,
+				460FCA051A3FC5D800A1A9EB /* UIKit.framework in Frameworks */,
+				460FCA011A3FC5D800A1A9EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FCA1B1A3FC5D800A1A9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA201A3FC5D800A1A9EB /* XCTest.framework in Frameworks */,
+				460FCA221A3FC5D800A1A9EB /* UIKit.framework in Frameworks */,
+				460FCA211A3FC5D800A1A9EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460FC9F41A3FC5D800A1A9EB = {
+			isa = PBXGroup;
+			children = (
+				460FCA061A3FC5D800A1A9EB /* Lecure5 */,
+				460FCA251A3FC5D800A1A9EB /* Lecure5Tests */,
+				460FC9FF1A3FC5D800A1A9EB /* Frameworks */,
+				460FC9FE1A3FC5D800A1A9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		460FC9FE1A3FC5D800A1A9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460FC9FD1A3FC5D800A1A9EB /* Lecure5.app */,
+				460FCA1E1A3FC5D800A1A9EB /* Lecure5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460FC9FF1A3FC5D800A1A9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				460FCA001A3FC5D800A1A9EB /* Foundation.framework */,
+				460FCA021A3FC5D800A1A9EB /* CoreGraphics.framework */,
+				460FCA041A3FC5D800A1A9EB /* UIKit.framework */,
+				460FCA1F1A3FC5D800A1A9EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		460FCA061A3FC5D800A1A9EB /* Lecure5 */ = {
+			isa = PBXGroup;
+			children = (
+				460FCA121A3FC5D800A1A9EB /* Main.storyboard */,
+				460FCA151A3FC5D800A1A9EB /* LFIVEViewController.h */,
+				460FCA161A3FC5D800A1A9EB /* LFIVEViewController.m */,
+				460FCA181A3FC5D800A1A9EB /* Images.xcassets */,
+				460FCA071A3FC5D800A1A9EB /* Supporting Files */,
+			);
+			path = Lecure5;
+			sourceTree = "<group>";
+		};
+		460FCA071A3FC5D800A1A9EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460FCA081A3FC5D800A1A9EB /* Lecure5-Info.plist */,
+				460FCA0F1A3FC5D800A1A9EB /* LFIVEAppDelegate.h */,
+				460FCA101A3FC5D800A1A9EB /* LFIVEAppDelegate.m */,
+				460FCA091A3FC5D800A1A9EB /* InfoPlist.strings */,
+				460FCA0C1A3FC5D800A1A9EB /* main.m */,
+				460FCA0E1A3FC5D800A1A9EB /* Lecure5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		460FCA251A3FC5D800A1A9EB /* Lecure5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				460FCA2B1A3FC5D800A1A9EB /* Lecure5Tests.m */,
+				460FCA261A3FC5D800A1A9EB /* Supporting Files */,
+			);
+			path = Lecure5Tests;
+			sourceTree = "<group>";
+		};
+		460FCA261A3FC5D800A1A9EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460FCA271A3FC5D800A1A9EB /* Lecure5Tests-Info.plist */,
+				460FCA281A3FC5D800A1A9EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460FC9FC1A3FC5D800A1A9EB /* Lecure5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FCA2F1A3FC5D800A1A9EB /* Build configuration list for PBXNativeTarget "Lecure5" */;
+			buildPhases = (
+				460FC9F91A3FC5D800A1A9EB /* Sources */,
+				460FC9FA1A3FC5D800A1A9EB /* Frameworks */,
+				460FC9FB1A3FC5D800A1A9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lecure5;
+			productName = Lecure5;
+			productReference = 460FC9FD1A3FC5D800A1A9EB /* Lecure5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460FCA1D1A3FC5D800A1A9EB /* Lecure5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FCA321A3FC5D800A1A9EB /* Build configuration list for PBXNativeTarget "Lecure5Tests" */;
+			buildPhases = (
+				460FCA1A1A3FC5D800A1A9EB /* Sources */,
+				460FCA1B1A3FC5D800A1A9EB /* Frameworks */,
+				460FCA1C1A3FC5D800A1A9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FCA241A3FC5D800A1A9EB /* PBXTargetDependency */,
+			);
+			name = Lecure5Tests;
+			productName = Lecure5Tests;
+			productReference = 460FCA1E1A3FC5D800A1A9EB /* Lecure5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460FC9F51A3FC5D800A1A9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LFIVE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cn.com.tiros;
+				TargetAttributes = {
+					460FCA1D1A3FC5D800A1A9EB = {
+						TestTargetID = 460FC9FC1A3FC5D800A1A9EB;
+					};
+				};
+			};
+			buildConfigurationList = 460FC9F81A3FC5D800A1A9EB /* Build configuration list for PBXProject "Lecure5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460FC9F41A3FC5D800A1A9EB;
+			productRefGroup = 460FC9FE1A3FC5D800A1A9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460FC9FC1A3FC5D800A1A9EB /* Lecure5 */,
+				460FCA1D1A3FC5D800A1A9EB /* Lecure5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460FC9FB1A3FC5D800A1A9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA191A3FC5D800A1A9EB /* Images.xcassets in Resources */,
+				460FCA0B1A3FC5D800A1A9EB /* InfoPlist.strings in Resources */,
+				460FCA141A3FC5D800A1A9EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FCA1C1A3FC5D800A1A9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA2A1A3FC5D800A1A9EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460FC9F91A3FC5D800A1A9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA171A3FC5D800A1A9EB /* LFIVEViewController.m in Sources */,
+				460FCA0D1A3FC5D800A1A9EB /* main.m in Sources */,
+				460FCA111A3FC5D800A1A9EB /* LFIVEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FCA1A1A3FC5D800A1A9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FCA2C1A3FC5D800A1A9EB /* Lecure5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460FCA241A3FC5D800A1A9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FC9FC1A3FC5D800A1A9EB /* Lecure5 */;
+			targetProxy = 460FCA231A3FC5D800A1A9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		460FCA091A3FC5D800A1A9EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460FCA0A1A3FC5D800A1A9EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		460FCA121A3FC5D800A1A9EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460FCA131A3FC5D800A1A9EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		460FCA281A3FC5D800A1A9EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460FCA291A3FC5D800A1A9EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460FCA2D1A3FC5D800A1A9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		460FCA2E1A3FC5D800A1A9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460FCA301A3FC5D800A1A9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecure5/Lecure5-Prefix.pch";
+				INFOPLIST_FILE = "Lecure5/Lecure5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		460FCA311A3FC5D800A1A9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecure5/Lecure5-Prefix.pch";
+				INFOPLIST_FILE = "Lecure5/Lecure5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		460FCA331A3FC5D800A1A9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lecure5.app/Lecure5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecure5/Lecure5-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lecure5Tests/Lecure5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		460FCA341A3FC5D800A1A9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lecure5.app/Lecure5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecure5/Lecure5-Prefix.pch";
+				INFOPLIST_FILE = "Lecure5Tests/Lecure5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460FC9F81A3FC5D800A1A9EB /* Build configuration list for PBXProject "Lecure5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FCA2D1A3FC5D800A1A9EB /* Debug */,
+				460FCA2E1A3FC5D800A1A9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FCA2F1A3FC5D800A1A9EB /* Build configuration list for PBXNativeTarget "Lecure5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FCA301A3FC5D800A1A9EB /* Debug */,
+				460FCA311A3FC5D800A1A9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		460FCA321A3FC5D800A1A9EB /* Build configuration list for PBXNativeTarget "Lecure5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FCA331A3FC5D800A1A9EB /* Debug */,
+				460FCA341A3FC5D800A1A9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460FC9F51A3FC5D800A1A9EB /* Project object */;
+}
